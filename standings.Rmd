@@ -3,6 +3,8 @@ title: "Standings"
 output: html_document
 ---
 
+<hr>
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
