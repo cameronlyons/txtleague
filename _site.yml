@@ -1,0 +1,28 @@
+name: "Textile League Baseball"
+output_dir: "."
+
+navbar:
+  title: "Textile League Baseball"
+  right:
+    - text: "Teams"
+      menu:
+      - text: "Boone Bigfoots"
+        href: https://www.bigfootsbaseball.com/
+      - text: "Carolina Disco Turkeys"
+        href: https://www.discoturkeys.com/
+      - text: "Catawba Valley Stars"
+      - text: "Greensboro Monarchs"
+      - text: "HPT Locos"
+      - text: "Statesville Owls"
+    - text: "Standings"
+      href: standings.html
+    - text: "League Leaders"
+      href: leaders.html
+      
+output:
+  html_document: 
+    theme: cosmo
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: webpage.css

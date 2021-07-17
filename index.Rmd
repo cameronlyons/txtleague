@@ -1,0 +1,24 @@
+---
+title: "Appalachian State Baseball Analytics"
+---
+
+**Last Updated:**  `r format(Sys.time(), "%A, %B %d, %Y")`
+
+<hr>
+
+```{r Setup,label = "SETUP", include=FALSE, results = 'hide'}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center", comment = NA, warning = FALSE, message = FALSE)
+library(readr)
+library(DT)
+library(dplyr)
+```
+
+```{r Table}
+season <- read_csv("2020-2021.csv")
+season <- season %>%
+  filter(PitchCall == "InPlay") %>%
+  filter(BatterTeam == "APP_MOU" | BatterTeam == "APP_PRA") %>%
+  select(Date, Batter, ExitSpeed)
+season$Date <- as.Date(season$Date , "%m/%d/%Y")
+datatable(season, rownames = FALSE, caption = 'Recent Exit Speeds', options = list(pageLength = 5, order = list(list(0, "desc"), list(2, 'desc'))))
+```
