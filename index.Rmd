@@ -1,9 +1,7 @@
----
-title: "Textile League Baseball"
----
-
-<hr>
-
 ```{r Setup,label = "SETUP", include=FALSE, results = 'hide'}
 knitr::opts_chunk$set(echo = FALSE, fig.align = "center", comment = NA, warning = FALSE, message = FALSE)
+```
+
+```{r}
+knitr::include_graphics("logo.jpg")
 ```
