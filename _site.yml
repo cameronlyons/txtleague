@@ -28,4 +28,5 @@ output:
   html_document:
     include:
       after_body: footer.html
+      in_header: header.html
     css: webpage.css
