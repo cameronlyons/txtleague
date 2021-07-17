@@ -1,3 +1,7 @@
+---
+title: Textile League Baseball
+---
+
 ```{r Setup,label = "SETUP", include=FALSE, results = 'hide'}
 knitr::opts_chunk$set(echo = FALSE, fig.align = "center", comment = NA, warning = FALSE, message = FALSE)
 ```
@@ -7,5 +11,3 @@ knitr::include_graphics("logo.jpg")
 ```
 
 <hr>
-
-
