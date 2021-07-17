@@ -2,7 +2,7 @@ name: "Textile League Baseball"
 output_dir: "."
 
 navbar:
-  icon: logo.PNG
+  text: "Textile League Baseball"
   right:
     - text: "Teams"
       menu:
