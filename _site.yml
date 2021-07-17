@@ -13,6 +13,7 @@ navbar:
       - text: "Catawba Valley Stars"
       - text: "Greensboro Monarchs"
       - text: "HPT Locos"
+      - text: "Martinsville Ponies"
       - text: "Statesville Owls"
     - text: "Standings"
       href: standings.html
