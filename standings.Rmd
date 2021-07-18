@@ -15,9 +15,6 @@ knitr::opts_chunk$set(echo = TRUE)
 | Catawba Valley Stars   | 10-23-1| 6-7    | 7.5 |
 | Carolina Disco Turkeys | 6-19   | 5-15   | 12  |
 | Statesville Owls       |        | 8-7    |     |
-| Greensboro Monarchs    |        |        |     |
-| HPT Locos              |        |        |     |
-| Martinsville Ponies    |        |        |     |
 
 **Last Updated:**  `r format(Sys.time(), "%A, %B %d, %Y")`
 
