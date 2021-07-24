@@ -8,3 +8,7 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+|    |         |                | OPS   |    |         |                | AVG  |
+| -: | :------ | :------------- | :---: | -: | :------ | :------------- | :--: |
+| 1  | B. Odom | Boone Bigfoots | 1.485 | 1  | B. Odom | Boone Bigfoots | .424 |

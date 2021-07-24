@@ -17,7 +17,7 @@ navbar:
     - text: "Standings"
       href: standings.html
     - text: "League Leaders"
-      href: leaders.html
+      href: https://gc.com/g/textileleague/leaders
       
 output:
   html_document:
